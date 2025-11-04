@@ -29,7 +29,7 @@ export default function ProgressDemo() {
         Topic For This Course
       </h2>
 
-      <div className="relative w-[60%] h-6">
+      <div className="relative w-[100%] h-6">
         <div className="absolute w-full h-2 bg-gray-300 rounded-full overflow-hidden top-1">
           <div
             className="h-2 bg-progress transition-all duration-200"

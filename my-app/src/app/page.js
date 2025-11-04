@@ -7,7 +7,10 @@ export default function Page() {
       <div className="container">
         <div className="wrapper flex flex-col xl:flex-row justify-between items-start gap-5 px-3 sm:px-0 mb-3">
           <Basic />
-          <Aside />
+          <div className="hidden sm:block">
+            <Aside />
+          </div>
+
         </div>
       </div>
     </div>
